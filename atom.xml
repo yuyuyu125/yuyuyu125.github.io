@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://feizao67.github.io/</id>
+    <title>花花</title>
+    <updated>2021-08-23T23:48:16.732Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://feizao67.github.io/"/>
+    <link rel="self" href="https://feizao67.github.io/atom.xml"/>
+    <subtitle>陈力就列，不能者止。</subtitle>
+    <logo>https://feizao67.github.io/images/avatar.png</logo>
+    <icon>https://feizao67.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2021, 花花</rights>
+    <entry>
+        <title type="html"><![CDATA[关于健康打卡2.0]]></title>
+        <id>https://feizao67.github.io/post/GDUF_autocheck_2.0/</id>
+        <link href="https://feizao67.github.io/post/GDUF_autocheck_2.0/">
+        </link>
+        <updated>2021-08-23T23:07:29.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="gduf_autocheck_20-现已推出">GDUF_autocheck_2.0 现已推出</h1>
+<h2 id="特性">特性</h2>
+<ul>
+<li>不再需要手动获取<code>logintoken</code></li>
+<li>使用易班账号密码登录</li>
+<li>支持自定义<code>地址</code>与<code>BARK</code></li>
+<li>使用xlsx格式excel管理打卡所需信息 <em>（对小白更加友好）</em></li>
+<li>需要手动部署服务器</li>
+</ul>
+<h2 id="所需参数">所需参数</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">account</th>
+<th style="text-align:left">password</th>
+<th style="text-align:left">bark</th>
+<th style="text-align:left">address</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">账号1</td>
+<td style="text-align:left">密码1</td>
+<td style="text-align:left">BARK客户端内获取</td>
+<td style="text-align:left">地址1</td>
+</tr>
+<tr>
+<td style="text-align:left">账号2</td>
+<td style="text-align:left">密码2</td>
+<td style="text-align:left">BARK客户端内获取</td>
+<td style="text-align:left">地址2</td>
+</tr>
+<tr>
+<td style="text-align:left">...</td>
+<td style="text-align:left">...</td>
+<td style="text-align:left">...</td>
+<td style="text-align:left">...</td>
+</tr>
+</tbody>
+</table>
+<h2 id="如图">如图</h2>
+<figure data-type="image" tabindex="1"><img src="https://feizao67.github.io//post-images/1629762477020.png" alt="" loading="lazy"></figure>
+<h2 id="备注">备注</h2>
+<ul>
+<li>目前<code>GDUF_autocheck_1.0</code>能用是能用，但每隔三天左右就要重新获取<code>logintoken</code>，这变得更加麻烦了，违背了“自动”的初衷</li>
+<li>或许是<code>GDUF_autocheck_1.0</code>的开源导致1.0中手动获取的<code>logintoken</code>有效期变成仅为三天左右 （一开始是可永久使用的）</li>
+<li>故<code>GDUF_autocheck_2.0</code>不打算开源（其中的登录模块是从github上抄来的）</li>
+<li>有这方面的打卡需求可加入<a href="https://qm.qq.com/cgi-bin/qm/qr?k=NM9kxBkkvWsNiKx-4y0IzzzpaaXbjGOx&amp;jump_from=webapi">Q群</a>与群主联系</li>
+</ul>
+<h2 id="音乐">音乐</h2>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1859586082&auto=1&height=66"></iframe>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[广东金融学院易广金健康打卡]]></title>
+        <id>https://feizao67.github.io/post/GDUF_autocheck/</id>
+        <link href="https://feizao67.github.io/post/GDUF_autocheck/">
+        </link>
+        <updated>2021-08-11T15:43:29.000Z</updated>
+        <content type="html"><![CDATA[<h1 align="center">
+<p><a href="https://github.com/feizao67/GDUF_autocheck">GDUF_autocheck</a></p>
+</h1>
+<p><strong>广东金融学院易广金健康打卡</strong></p>
+<ul class="contains-task-list">
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4810217"><label class="task-list-item-label" for="task-item-4810217"> 支持多人打卡👨‍👩‍👧‍👧</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3570604"><label class="task-list-item-label" for="task-item-3570604"> 支持Bark通知打卡结果💬</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-816335"><label class="task-list-item-label" for="task-item-816335"> 默认地址是肇庆校区🏫</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6205405"><label class="task-list-item-label" for="task-item-6205405"> 基于Github Actions定时每日早上8:00自动打卡，完全解放你的设备和服务器✔</label></li>
+</ul>
+<h2 id="使用方法">使用方法</h2>
+<ul>
+<li>Star并Fork此项目。<br><br>
+<a href="https://blog.csdn.net/zhongzunfa/article/details/80344585">Github fork 别人的项目源作者更新后如何同步更新</a></li>
+<li>进入你的仓库，Settings → Secrets,</li>
+<li>分别添加下列2个 Secrets（利用Secrets解决隐私问题）：</li>
+<li>Fork的项目是不会自动运行Action的，需要手动执行一次。</li>
+<li>点击<code>Action</code> -&gt; <code>I understand my workflows. go ahaed and enable them</code> -&gt; <code>Enable workflow</code> -&gt; <code>Run workflow</code> -&gt; <code>Run workflow</code></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Name</th>
+<th style="text-align:left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">USERS</td>
+<td style="text-align:left">{&quot;名字&quot;:[&quot;logintoken&quot;,&quot;地址&quot;],&quot;名字2&quot;:[&quot;logintoken2&quot;,&quot;地址2&quot;]}</td>
+</tr>
+<tr>
+<td style="text-align:left">BARK</td>
+<td style="text-align:left">XXXXXXXXXXXXXXXXXXXXXX</td>
+</tr>
+</tbody>
+</table>
+<p>备注：<br><br>
+①理论上USERS项的Value格式填写正确，可添加无限用户<br><br>
+②<code>地址</code>这一参数可以留空（留空则使用肇庆校区的默认地址），但要保留<code>&quot;&quot;</code><br><br>
+③如何获取<a href="https://github.com/feizao67/GDUF_autocheck/blob/main/%E5%A6%82%E4%BD%95%E8%8E%B7%E5%8F%96logintoken.pdf">logintoken</a> <br><br>
+④BARK的Value填入的是在你的Bark客户端里得到<code>https://api.day.app/XXXXXXXXXXXXXXXXXXXXXX</code>后面的那串字符<br><br>
+⑤添加BARK这一步为可选步骤（非必要），不添加不会影响打卡，只是当打卡失败时不会向手机推送失败提醒<br><br>
+⑥BARK获取教程：<br><br>
+<img src="https://feizao67.github.io//post-images/1628697404957.jpg" alt="" loading="lazy"></p>
+<h2 id="与我联系">与我联系</h2>
+<ul>
+<li>有任何问题可以提交<a href="https://github.com/feizao67/GDUF_autocheck/issues/new">issues</a></li>
+<li>QQ交流群：<a href="https://qm.qq.com/cgi-bin/qm/qr?k=NM9kxBkkvWsNiKx-4y0IzzzpaaXbjGOx&amp;jump_from=webapi">550758147</a></li>
+</ul>
+<h2 id="许可">许可</h2>
+<p>本项目以 MIT 协议开源，详情请见 <a href="https://github.com/feizao67/GDUF_autocheck/blob/main/LICENSE">LICENSE</a> 文件。</p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1867845945&auto=1&height=66"></iframe>
+]]></content>
+    </entry>
+</feed>
